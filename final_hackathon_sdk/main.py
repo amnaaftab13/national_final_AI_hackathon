@@ -17,7 +17,7 @@ from dashboard_cache import (
     get_cache_stats
 )
 from twilio.rest import Client
-from configuration import  session,admin_session,scheduled_session
+from configuration import  session,admin_session,scheduled_session,CRUD_BASE_URL
 from fastapi import Response, Request, Body
 from agents_file import insight_agent,analytics_agent
 from datetime import datetime
@@ -32,6 +32,7 @@ from pathlib import Path
 from typing import Optional,List,Dict,Any
 
 state = get_state_manager()
+
 
 
 class ProductInsight(BaseModel):
@@ -413,7 +414,7 @@ async def get_marketing_campaigns():
         # FETCH FROM MCP
         import aiohttp
         async with aiohttp.ClientSession() as session_http:
-            async with session_http.get("https://ai-fashion-bazar-78681317003.us-central1.run.app/api/marketing/campaigns") as response:
+            async with session_http.get(f"{CRUD_BASE_URL}/api/marketing/campaigns") as response:
                 if response.status == 200:
                     data = await response.json()
                     campaigns = data.get("data", [])

@@ -34,6 +34,7 @@ config = RunConfig(
 # MCP_SERVER_URL=f"{URL}/mcp"
 MCP_SERVER_URL = "http://localhost:8080/mcp"
 mcp_params = MCPServerStreamableHttpParams(url=MCP_SERVER_URL)
+CRUD_BASE_URL=os.getenv("CRUD_BASE_URL")
 session = SQLiteSession("conversation_123")
 scheduled_session = SQLiteSession("scheduled_business_decisions")
 admin_session = SQLiteSession("admin_dashboard_session")
