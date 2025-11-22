@@ -1,0 +1,251 @@
+{
+  "sidebar": {
+    "admin": "Admin",
+    "dashboard": "Dashboard",
+    "addProduct": "Add Product",
+    "viewProducts": "View Products",
+    "salesReport": "Sales Report",
+    "purchaseReport": "Purchase Report",
+    "profitLoss": "Profit Loss",
+    "marketing": "Marketing Campaigns",
+    "logs": "Logs",
+    "loading": "Loading...",
+    "brand_name": "AI Fashion Bazar"
+
+  },
+  "common": {
+    "login_failed_alert": "Login failed, please check your credentials.",
+    "network_error_alert": "Network error: Could not connect to the server.",
+    "login_heading": "Admin Login",
+    "email_placeholder": "Email / Username",
+    "password_placeholder": "Password",
+    "logging_in": "Logging in...",
+    "login_button": "Login",
+    "copyright_text": "All rights reserved"
+  },
+  "addProductPage": {
+    "heading": "🧵 Add Inventory Item",
+    "description": "Upload product data and image to Inventory Agent",
+    "name_placeholder": "Product Name *",
+    "price_placeholder": "Price (PKR) *",
+    "stock_placeholder": "Stock *",
+    "category_placeholder": "Category",
+    "stitch_type_placeholder": "Stitch Type",
+    "color_placeholder": "Color (Optional)",
+    "description_placeholder": "Description (Optional)",
+    "image_placeholder": "Select Image *",
+    "submit_button": "Submit Product",
+    "loading_upload": "Uploading..."
+  },
+  "alerts": {
+    "required_fields": "⚠️ Required fields missing!",
+    "upload_success": "✅ Product added successfully!",
+    "upload_fail": "❌ Upload failed",
+    "network_error": "⚠️ Cannot reach Inventory API!"
+  },
+  "marketingPage": {
+    "type_label": "Type",
+    "price_label": "Price",
+    "status_label": "Status",
+    "created_label": "Created",
+    "loading": "Loading campaigns..."
+  },
+ "marketingAlerts": {
+    "fetch_fail": "❌ Failed to fetch campaigns",
+    "network_error": "❌ Network error: Unable to connect to backend"
+  },
+   "viewProductsPage": {
+    "heading": "⚡ Inventory Products",
+    "no_products": "No products found.",
+    "stock_label": "Stock",
+    "category_label": "Category",
+    "stitching_type_label": "Stitch Type",
+    "price_label": "Price",
+    "unknown_category": "Unknown",
+    "loading": "Loading products..."
+  },
+  "viewAlerts": {
+    "network_error": "❌ Network error: Unable to fetch products!"
+  },
+  "salesReportPage": {
+    "heading": "📊 Sales Analytics Dashboard",
+    "total_orders_label": "🛍 Total Orders",
+    "total_revenue_label": "💵 Total Revenue",
+    "no_orders": "No Orders Found",
+    "products_label": "📦 Products",
+    "product_summary_label": "📌 Product Summary",
+    "product_column": "Product",
+    "quantity_column": "Qty",
+    "sales_column": "Sales",
+    "total_sales_label": "Total Amount",
+    "payment_method_label": "Payment Method",
+    "paid_on_label": "Paid On",
+    "loading": "Loading Sales Report..."
+  },
+  "salesAlerts": {
+    "fetch_fail": "❌ Failed to fetch sales report",
+    "network_error": "❌ Network error: Unable to connect to backend"
+  },
+  "purchaseReportPage": {
+    "heading": "💰 Supplier Purchase Analytics",
+    "total_records_label": "📝 Total Records",
+    "total_spent_label": "💸 Total Spent",
+    "quantity_label": "Quantity",
+    "amount_paid_label": "Amount Paid",
+    "supplier_label": "Supplier",
+    "purchased_on_label": "Purchased On",
+    "no_purchases": "No Purchases Found",
+    "loading": "Loading Purchase Report..."
+  },
+  "purchaseAlerts": {
+    "fetch_fail": "❌ Failed to fetch purchase report",
+    "network_error": "❌ Network error: Unable to connect to backend"
+  },
+   "profitLossPage": {
+    "heading": "💰 Profit & Loss Analytics",
+    "total_sales_label": "Total Sales",
+    "total_purchases_label": "Total Purchases",
+    "net_profit_label": "Net Profit",
+    "net_loss_label": "Net Loss",
+    "financial_summary_label": "Financial Summary",
+    "sales_vs_purchases_label": "Sales vs Purchases",
+    "profit_margin_label": "Profit Margin",
+    "loading": "Loading Profit & Loss Report..."
+  },
+  "profitLossAlerts": {
+    "fetch_fail": "❌ Failed to fetch profit & loss report",
+    "network_error": "❌ Network error: Unable to connect to backend"
+  },
+  "dashboardPage": {
+  "loading": "Loading Dashboard...",
+  "total_revenue_label": "Total Revenue",
+  "low_selling_products_label": "Low Selling Products",
+  "inventory_boost_label": "Inventory Boost",
+  "revenue_increase_label": "Revenue Increase",
+  "product_performance_heading": "Product Performance",
+  "pricing_suggestions_heading": "Pricing Suggestions",
+  "price_comparison_heading": "Price Comparison Trend",
+  "top_recommendations_heading": "Top Recommendations",
+  "inventory_actions_heading": "Inventory Actions",
+  "marketing_campaigns_heading": "Marketing Campaigns",
+  "detailed_pricing_heading": "Detailed Pricing Changes",
+  "currency": "Rs",
+  "low_selling_label": "Low Selling",
+  "other_label": "Other",
+  "suggested_price_label": "Suggested Price",
+  "current_price_label": "Current Price",
+  "category_label": "Category",
+  "product_label": "Product",
+  "products_label": "Products",
+  "discount_label": "Discount",
+  "sales_label": "Sales",
+  "units_label": "units",
+  "budget_label": "Budget",
+  "impact_label": "Impact",
+  "revenue_label": "Revenue",
+  "cost_savings_label": "Cost Savings",
+  "roi_label": "ROI",
+  "action_label": "Action",
+  "reason_label": "Reason",
+  "duration_label": "Duration",
+  "weeks_label": "weeks",
+  "channel_label": "Channel",
+  "type_label": "Type",
+  "days_label": "days"
+},
+"dashboardAlerts": {
+  "fetch_fail": "❌ Failed to fetch dashboard data",
+  "no_data": "No data available",
+  "network_error": "❌ Network error: Unable to connect to backend"
+},
+"logsPage": {
+  "page_title": "Agent Logs Viewer",
+  "loading_logs": "Loading logs...",
+  "error_loading": "Error Loading Logs",
+  "retry_button": "Try Again",
+  "backend_warning": "Make sure your backend is running at:",
+  "filter_label": "Filter by Agent",
+  "search_placeholder": "Search by user message...",
+  "auto_refresh_label": "Auto Refresh",
+  "no_logs": "No Logs Found",
+  
+  "trace_id": "Trace ID",
+  "timestamp": "Timestamp",
+  "user_message": "User Message",
+  "expand": "Expand",
+  "collapse": "Collapse",
+  
+  "mcp_calls": "MCP Calls",
+  "llm_decisions": "LLM Decisions",
+  "handoffs": "Agent Handoffs",
+  "final_outputs": "Final Outputs",
+  "summary": "Summary",
+  
+  "server": "Server",
+  "action": "Action",
+  "tools_found": "Tools Found",
+  "duration": "Duration",
+  
+  "tool_used": "Tool Used",
+  "agent": "Agent",
+  "model": "Model",
+  "tokens": "Tokens",
+  "reasoning": "Reasoning",
+  
+  "from": "From",
+  "to": "To",
+  
+  "final_output_label": "Final Output",
+  "preview": "Preview",
+  
+  "total_agents": "Total Agents",
+  "total_tools": "Total Tools",
+  "llm_calls": "LLM Calls",
+  "mcp_calls_summary": "MCP Calls",
+  "negotiations": "Negotiations",
+  "handoffs_summary": "Handoffs",
+  "autonomous_decisions": "Autonomous Decisions",
+  "total_tokens": "Total Tokens",
+  "input_tokens": "Input Tokens",
+  "output_tokens": "Output Tokens",
+  "total_duration": "Total Duration",
+  
+  "header_title": " Hackathon Agentic AI Monitor",
+  "header_subtitle": "Real-time Autonomous Agentic Execution Trace",
+  "started": "Started",
+  "showing_traces": "Showing",
+  "of_traces": "of",
+  "traces": "traces",
+  "auto_refresh_status": "Auto-refreshing every 5s",
+  
+  "completed_status": "COMPLETED",
+  "user_query": "USER QUERY",
+  "llm_tool_calls": "LLM Decisions & Tool Calls",
+  "agent_handoffs_title": "Agent Handoffs",
+  "execution_metrics": "Execution Metrics",
+  "mcp_orchestration": "🔌 MCP Orchestration",
+  "autonomous_title": "⚡ Autonomous Decisions (Unscripted)",
+  "final_user_output": "📤 Final Output",
+  "system_stats": "🎯 System Statistics",
+  
+  "total_traces_stat": "Total Traces",
+  "active_agents_stat": "Active Agents",
+  "total_negotiations_stat": "Total Negotiations",
+  "total_auto_decisions_stat": "Total Auto Decisions",
+  
+  "calls_suffix": "calls",
+  "agent_chose": "Agent autonomously chose:",
+  "autonomous_handoff": "Autonomous handoff:",
+  
+  "all_agents": "All Agents",
+  "refresh_button": "Refresh",
+  "auto_on": "Auto ON",
+  "auto_off": "Auto OFF",
+  
+  "no_logs_title": "No Logs Found",
+  "no_logs_desc": "Try adjusting your filters or check back later",
+  
+  "unknown_agent": "Unknown Agent",
+  "unknown_server": "Unknown"
+}
+}

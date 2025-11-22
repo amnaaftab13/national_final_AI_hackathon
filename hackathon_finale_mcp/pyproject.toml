@@ -1,0 +1,14 @@
+[project]
+name = "mcp-server"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "cloudinary>=1.44.1",
+    "dotenv>=0.9.9",
+    "fastapi>=0.119.0",
+    "mcp>=1.18.0",
+    "motor>=3.7.1",
+    "twilio>=9.8.4",
+]

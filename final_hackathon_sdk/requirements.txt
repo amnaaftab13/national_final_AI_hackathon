@@ -1,0 +1,9 @@
+openai-agents
+pydantic
+dotenv
+fastapi
+uvicorn
+twilio
+anyio
+mcp
+python-dateutil

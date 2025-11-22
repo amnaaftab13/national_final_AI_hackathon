@@ -1,0 +1,487 @@
+====================================================================================================
+🤖 AUTONOMOUS AGENTIC AI - NATIONAL HACKATHON 2025 SUBMISSION
+====================================================================================================
+📋 EVIDENCE OF ALL REQUIREMENTS:
+•  Multi-agent reasoning, planning & negotiation
+•  Autonomous decision-making (unscripted)
+•  MCP orchestration with secure message logging
+•  Inter-agent context sharing & handoffs
+•  Error handling & graceful degradation
+•  Complete token usage & performance metrics
+•  Final output capture
+Started: 2025-11-22 09:01:32
+====================================================================================================
+
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 🚀 NEW TRACE: trace_a880ecea76524ec393726b7edc553f00                                     ┃
+┃ Time: 2025-11-22 09:01:41                                                               ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+
+📥 USER: show all products
+
+
+    ├─ 🧠 LLM DECISION → transfer_to_salesagent
+    │  Agent: Powerful AI Assistant
+    │  Model: gemini-2.5-flash
+      │  Arguments:
+  │  {}
+  │  
+  │  ⏱️  3.17s | 🎫 1878 tokens (in:1865, out:13)
+
+
+    ╔═══════════════════════════════════════════════════════════════════════════════════╗
+    ║ 🔄 AUTONOMOUS HANDOFF: Powerful AI Assistant → SalesAgent                 ║
+      ╚═══════════════════════════════════════════════════════════════════════════════════╝
+    
+
+    │  🔌 MCP: MySharedMCPClient → list_tools (found 16 tools, 0.27s)
+    
+
+    ├─ 🧠 LLM DECISION → fetch_all_products
+    │  Agent: SalesAgent
+    │  Model: gemini-2.5-flash
+      │  Arguments:
+  │  {}
+  │  
+  │  ⏱️  1.93s | 🎫 5925 tokens (in:5913, out:12)
+
+
+    │  🔌 MCP: MySharedMCPClient → list_tools (found 16 tools, 0.00s)
+    
+
+    ├─ 📤 FINAL RESPONSE GENERATED
+    │  Agent: SalesAgent
+    │  Model: gemini-2.5-flash
+    │  Length: 1511 characters
+    │  Preview: ✨ **OUR PRODUCT COLLECTION** ✨
+
+1️⃣ **Wash & Wear Suit** - Rs. 2800.0
+   [https://res.cloudinary.com/cnqamnaaftab/image/upload/v1763300721/j1vxtn3fvh6...
+    │  
+    │  ⏱️  4.69s | 🎫 8252 tokens (in:7490, out:762)
+    
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ ✅ TRACE COMPLETED                                                                     ┃
+┃                                                                                        ┃
+┃ 📊 EXECUTION METRICS:                                                                  ┃
+┃    • Agents: 2                                                                              ┃
+┃    • Tools: 0                                                                               ┃
+┃    • LLM Calls: 3                                                                          ┃
+┃    • MCP Calls: 2                                                                           ┃
+┃    • Negotiations: 0                                                                        ┃
+┃    • Handoffs: 1                                                                            ┃
+┃    • Autonomous Decisions: 2                                                                 ┃
+┃                                                                                        ┃
+┃ 🎫 TOKEN USAGE:                                                                        ┃
+┃    • Total: 16055                                                                           ┃
+┃    • Input: 15268                                                                           ┃
+┃    • Output: 787                                                                            ┃
+┃                                                                                        ┃
+┃ ⏱️  TOTAL DURATION: 11.03s                                                                      ┃
+┃                                                                                        ┃
+┃ 📤 FINAL OUTPUT TO USER:                                                               ┃
+┃    ✨ **OUR PRODUCT COLLECTION** ✨                                                      ┃
+┃                                                                                        ┃
+┃    1️⃣ **Wash & Wear Suit** - Rs. 2800.0                                               ┃
+┃       [https://res.cloudinary.com/cnqamnaaftab/image/upload/v1763300721/j1vxtn3fvh6    ┃
+┃                                                                                        ┃
+┃    ... (truncated, total: 1511 chars)                                             ┃
+┃                                                                                        ┃
+┃ 🔌 MCP ORCHESTRATION:                                                                  ┃
+┃    • MySharedMCPClient: 2 calls             ┃
+┃                                                                                        ┃
+┃ 🔄 INTER-AGENT HANDOFFS:                                                               ┃
+┃    • Powerful AI Assistan → SalesAgent                              ┃
+┃                                                                                        ┃
+┃ ⚡ AUTONOMOUS DECISIONS (Unscripted):                                                  ┃
+┃    • Agent autonomously chose: transfer_to_salesagent                                    ┃
+┃    • Autonomous handoff: Powerful AI Assistant → SalesAgent                              ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+====================================================================================================
+
+
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 🚀 NEW TRACE: trace_e7410878f4134ed48d276a8f7d4f085f                                     ┃
+┃ Time: 2025-11-22 09:01:59                                                               ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+
+📥 USER: maxi
+
+
+    ├─ 🧠 LLM DECISION → transfer_to_salesagent
+    │  Agent: Powerful AI Assistant
+    │  Model: gemini-2.5-flash
+      │  Arguments:
+  │  {}
+  │  
+  │  ⏱️  2.45s | 🎫 4255 tokens (in:4242, out:13)
+
+
+    ╔═══════════════════════════════════════════════════════════════════════════════════╗
+    ║ 🔄 AUTONOMOUS HANDOFF: Powerful AI Assistant → SalesAgent                 ║
+      ╚═══════════════════════════════════════════════════════════════════════════════════╝
+    
+
+    │  🔌 MCP: MySharedMCPClient → list_tools (found 16 tools, 0.00s)
+    
+
+    ├─ 🧠 LLM DECISION → CheckInventory
+    │  Agent: SalesAgent
+    │  Model: gemini-2.5-flash
+      │  Arguments:
+  │  {
+  │    "quantity": 1,
+  │    "product_name": "Maxi"
+  │  }
+  │  
+  │  ⏱️  7.98s | 🎫 8458 tokens (in:8436, out:22)
+
+
+    │  🔌 MCP: MySharedMCPClient → list_tools (found 16 tools, 0.00s)
+    
+
+    ├─ 🧠 LLM DECISION → CheckInventory
+    │  Agent: SalesAgent
+    │  Model: gemini-2.5-flash
+      │  Arguments:
+  │  {
+  │    "input": "Maxi, quantity: 1"
+  │  }
+  │  
+  │  ⏱️  3.66s | 🎫 8588 tokens (in:8568, out:20)
+
+
+    │  🔌 MCP: MySharedMCPClient → list_tools (found 16 tools, 0.00s)
+    
+
+    ├─ 🧠 LLM DECISION → inventory_evaluation
+    │  Agent: InventoryAgent
+    │  Model: gemini-2.5-flash
+      │  
+  │  🧠 Decision Logic:
+  │    → ACTION (MANDATORY) ===
+  │    → INPUT PARSING ===
+  │  
+  │  Arguments:
+  │  {
+  │    "product_name": "Maxi",
+  │    "quantity": 1
+  │  }
+  │  
+  │  ⏱️  1.53s | 🎫 2623 tokens (in:2600, out:23)
+
+
+    │  🔌 MCP: MySharedMCPClient → list_tools (found 16 tools, 0.00s)
+    
+
+    ├─ 📤 FINAL RESPONSE GENERATED
+    │  Agent: InventoryAgent
+    │  Model: gemini-2.5-flash
+    │  Length: 175 characters
+    │  Preview: ```json
+{
+    "stock_available": true,
+    "available_stock": 2,
+    "reorder_needed": true,
+    "message": "Stock check complete. 2 units available b...
+    │  
+    │  ⏱️  2.12s | 🎫 3031 tokens (in:2975, out:56)
+    
+
+    │  🔌 MCP: MySharedMCPClient → list_tools (found 16 tools, 0.00s)
+    
+
+    ├─ 🧠 LLM DECISION → trigger_procurement_handoff
+    │  Agent: InventoryAgent
+    │  Model: gemini-2.5-flash
+      │  Arguments:
+  │  {
+  │    "current_stock": 2,
+  │    "product_name": "Maxi"
+  │  }
+  │  
+  │  ⏱️  2.14s | 🎫 8689 tokens (in:8660, out:29)
+
+
+    │  🔌 MCP: MySharedMCPClient → list_tools (found 16 tools, 0.00s)
+    
+
+    │  🔌 MCP: MySharedMCPClient → list_tools (found 16 tools, 0.00s)
+    
+
+    ├─ 📤 FINAL RESPONSE GENERATED
+    │  Agent: BuyingAgent
+    │  Model: gemini-2.5-flash
+    │  Length: 94 characters
+    │  Preview: 🖤 Aap Maxi order karna chahte hain. Kya main aapka order confirm karoon? (Reply 'yes confirm')...
+    │  
+    │  ⏱️  2.78s | 🎫 8747 tokens (in:8723, out:24)
+    
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ ✅ TRACE COMPLETED                                                                     ┃
+┃                                                                                        ┃
+┃ 📊 EXECUTION METRICS:                                                                  ┃
+┃    • Agents: 3                                                                              ┃
+┃    • Tools: 0                                                                               ┃
+┃    • LLM Calls: 7                                                                          ┃
+┃    • MCP Calls: 7                                                                           ┃
+┃    • Negotiations: 0                                                                        ┃
+┃    • Handoffs: 1                                                                            ┃
+┃    • Autonomous Decisions: 3                                                                 ┃
+┃                                                                                        ┃
+┃ 🎫 TOKEN USAGE:                                                                        ┃
+┃    • Total: 44391                                                                           ┃
+┃    • Input: 44204                                                                           ┃
+┃    • Output: 187                                                                            ┃
+┃                                                                                        ┃
+┃ ⏱️  TOTAL DURATION: 23.03s                                                                      ┃
+┃                                                                                        ┃
+┃ 📤 FINAL OUTPUT TO USER:                                                               ┃
+┃    🖤 Aap Maxi order karna chahte hain. Kya main aapka order confirm karoon? (Reply     ┃
+┃                                                                                        ┃
+┃ 🔌 MCP ORCHESTRATION:                                                                  ┃
+┃    • MySharedMCPClient: 7 calls             ┃
+┃                                                                                        ┃
+┃ 🔄 INTER-AGENT HANDOFFS:                                                               ┃
+┃    • Powerful AI Assistan → SalesAgent                              ┃
+┃                                                                                        ┃
+┃ ⚡ AUTONOMOUS DECISIONS (Unscripted):                                                  ┃
+┃    • Agent autonomously chose: transfer_to_salesagent                                    ┃
+┃    • Autonomous handoff: Powerful AI Assistant → SalesAgent                              ┃
+┃    • Agent autonomously chose: trigger_procurement_handoff                               ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+====================================================================================================
+
+
+
+📥 USER: show all products
+
+
+    ├─ 🧠 LLM DECISION → get_random_supplier_details
+    │  Agent: BuyingAgent
+    │  Model: gemini-2.5-flash
+      │  
+  │  🎯 Agent Planning:
+  │    → EXTRACT DATA (MANDATORY) ===
+  │    → LOOKUP PRICE (MANDATORY) ===
+  │    → CALCULATE PURCHASE VALUE ===
+  │  
+  │  Arguments:
+  │  {}
+  │  
+  │  ⏱️  16.78s | 🎫 5272 tokens (in:5258, out:14)
+
+
+    │  🔌 MCP: MySharedMCPClient → list_tools (found 16 tools, 0.00s)
+    
+
+    ├─ 🧠 LLM DECISION → get_random_supplier_details
+    │  Agent: BuyingAgent
+    │  Model: gemini-2.5-flash
+      │  
+  │  🎯 Agent Planning:
+  │    → EXTRACT DATA (MANDATORY) ===
+  │    → LOOKUP PRICE (MANDATORY) ===
+  │    → CALCULATE PURCHASE VALUE ===
+  │  
+  │  Arguments:
+  │  {}
+  │  
+  │  ⏱️  3.99s | 🎫 5359 tokens (in:5345, out:14)
+
+
+    │  🔌 MCP: MySharedMCPClient → list_tools (found 16 tools, 0.00s)
+    
+
+    ├─ 📤 FINAL RESPONSE GENERATED
+    │  Agent: BuyingAgent
+    │  Model: gemini-2.5-flash
+    │  Length: 77 characters
+    │  Preview: I am facing an issue fetching supplier details. Please try again in sometime....
+    │  
+    │  ⏱️  3.57s | 🎫 5447 tokens (in:5432, out:15)
+    
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 🚀 NEW TRACE: trace_57011493f181473f8320df5df403959c                                     ┃
+┃ Time: 2025-11-22 09:05:09                                                               ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+
+    │  🔌 MCP: MySharedMCPClient → list_tools (found 16 tools, 0.00s)
+    
+
+    ├─ 🧠 LLM DECISION → generate_sales_report_http
+    │  Agent: AnalyticsAgent
+    │  Model: gemini-2.5-flash
+      │  
+  │  🎯 Agent Planning:
+  │    → CALL generate_sales_report_http()
+  │    → Sales Data لائیں - ضروری)
+  │    → CALL generate_purchase_report()
+  │  
+  │  Arguments:
+  │  {}
+  │  
+  │  ⏱️  2.26s | 🎫 3455 tokens (in:3441, out:14)
+
+
+    │  🔌 MCP: MySharedMCPClient → list_tools (found 16 tools, 0.00s)
+    
+
+    ├─ 🧠 LLM DECISION → generate_purchase_report
+    │  Agent: AnalyticsAgent
+    │  Model: gemini-2.5-flash
+      │  
+  │  🎯 Agent Planning:
+  │    → CALL generate_sales_report_http()
+  │    → Sales Data لائیں - ضروری)
+  │    → CALL generate_purchase_report()
+  │  
+  │  Arguments:
+  │  {}
+  │  
+  │  ⏱️  1.94s | 🎫 6027 tokens (in:6015, out:12)
+
+
+    │  🔌 MCP: MySharedMCPClient → list_tools (found 16 tools, 0.00s)
+    
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ 🚀 NEW TRACE: trace_c5569dbb546f4875acfbfb40e9ae2a43                                     ┃
+┃ Time: 2025-11-22 09:05:29                                                               ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+
+    │  🔌 MCP: MySharedMCPClient → list_tools (found 16 tools, 0.00s)
+    
+
+    ├─ 🧠 LLM DECISION → calculate_profit_loss
+    │  Agent: AnalyticsAgent
+    │  Model: gemini-2.5-flash
+      │  
+  │  🎯 Agent Planning:
+  │    → CALL generate_sales_report_http()
+  │    → Sales Data لائیں - ضروری)
+  │    → CALL generate_purchase_report()
+  │  
+  │  Arguments:
+  │  {
+  │    "sales_data": "{\"report_type\": \"sales_summary\", \"status\": \"success\", \"message\": \"Report generated: 8 orders found\", \"data\": {\"total...
+  │  
+  │  ⏱️  17.80s | 🎫 8132 tokens (in:6273, out:1859)
+
+
+    │  🔌 MCP: MySharedMCPClient → list_tools (found 16 tools, 0.00s)
+    
+
+    ├─ 📤 FINAL RESPONSE GENERATED
+    │  Agent: AnalyticsAgent
+    │  Model: gemini-2.5-flash
+    │  Length: 288 characters
+    │  Preview: {"report_type": "profit_loss_summary", "status": "success", "message": "💰 PROFIT/LOSS REPORT 📊\nTotal Sales Revenue: Rs. 116,968.15\nTotal Inventory S...
+    │  
+    │  ⏱️  2.02s | 🎫 8479 tokens (in:8345, out:134)
+    
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ ✅ TRACE COMPLETED                                                                     ┃
+┃                                                                                        ┃
+┃ 📊 EXECUTION METRICS:                                                                  ┃
+┃    • Agents: 1                                                                              ┃
+┃    • Tools: 0                                                                               ┃
+┃    • LLM Calls: 2                                                                          ┃
+┃    • MCP Calls: 2                                                                           ┃
+┃    • Negotiations: 0                                                                        ┃
+┃    • Handoffs: 0                                                                            ┃
+┃    • Autonomous Decisions: 0                                                                 ┃
+┃                                                                                        ┃
+┃ 🎫 TOKEN USAGE:                                                                        ┃
+┃    • Total: 16611                                                                           ┃
+┃    • Input: 14618                                                                           ┃
+┃    • Output: 1993                                                                           ┃
+┃                                                                                        ┃
+┃ ⏱️  TOTAL DURATION: 6.38s                                                                       ┃
+┃                                                                                        ┃
+┃ 📤 FINAL OUTPUT TO USER:                                                               ┃
+┃    {"report_type": "profit_loss_summary", "status": "success", "message": "💰 PROFIT    ┃
+┃                                                                                        ┃
+┃ 🔌 MCP ORCHESTRATION:                                                                  ┃
+┃    • MySharedMCPClient: 2 calls             ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+====================================================================================================
+
+
+
+    ├─ 🧠 LLM DECISION → calculate_profit_loss
+    │  Agent: AnalyticsAgent
+    │  Model: gemini-2.5-flash
+      │  
+  │  🎯 Agent Planning:
+  │    → CALL generate_sales_report_http()
+  │    → Sales Data لائیں - ضروری)
+  │    → CALL generate_purchase_report()
+  │  
+  │  Arguments:
+  │  {
+  │    "sales_data": {
+  │      "status": "success",
+  │      "data": {
+  │        "product_summary": {
+  │          "Girls Party Dress": {
+  │            "revenue": 2350,
+  │        ...
+  │  
+  │  ⏱️  27.31s | 🎫 8090 tokens (in:6286, out:1804)
+
+
+    │  🔌 MCP: MySharedMCPClient → list_tools (found 16 tools, 0.00s)
+    
+
+    ├─ 📤 FINAL RESPONSE GENERATED
+    │  Agent: AnalyticsAgent
+    │  Model: gemini-2.5-flash
+    │  Length: 286 characters
+    │  Preview: {"report_type": "profit_loss_summary", "status": "success", "message": "💰 PROFIT/LOSS REPORT 📊\nTotal Sales Revenue: Rs. 116,968.15\nTotal Inventory S...
+    │  
+    │  ⏱️  1.94s | 🎫 8433 tokens (in:8301, out:132)
+    
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ ✅ TRACE COMPLETED                                                                     ┃
+┃                                                                                        ┃
+┃ 📊 EXECUTION METRICS:                                                                  ┃
+┃    • Agents: 1                                                                              ┃
+┃    • Tools: 0                                                                               ┃
+┃    • LLM Calls: 4                                                                          ┃
+┃    • MCP Calls: 3                                                                           ┃
+┃    • Negotiations: 0                                                                        ┃
+┃    • Handoffs: 0                                                                            ┃
+┃    • Autonomous Decisions: 0                                                                 ┃
+┃                                                                                        ┃
+┃ 🎫 TOKEN USAGE:                                                                        ┃
+┃    • Total: 33134                                                                           ┃
+┃    • Input: 29205                                                                           ┃
+┃    • Output: 3929                                                                           ┃
+┃                                                                                        ┃
+┃ ⏱️  TOTAL DURATION: 29.54s                                                                      ┃
+┃                                                                                        ┃
+┃ 📤 FINAL OUTPUT TO USER:                                                               ┃
+┃    {"report_type": "profit_loss_summary", "status": "success", "message": "💰 PROFIT    ┃
+┃                                                                                        ┃
+┃ 🔌 MCP ORCHESTRATION:                                                                  ┃
+┃    • MySharedMCPClient: 3 calls             ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+====================================================================================================
+
+
